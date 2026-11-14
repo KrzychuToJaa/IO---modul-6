@@ -1,181 +1,290 @@
 <mxfile host="65bd71144e">
     <diagram name="Diagram przypadków użycia" id="G1-suRg2eZakpwJhsN8I">
-        <mxGraphModel dx="1337" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1110" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
+                <mxCell id="0" />
+                <mxCell id="1" parent="0" />
                 <mxCell id="a5s1IO0cIchD1mmAsrQn-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Organizator &lt;br&gt;wydarzenia" vertex="1">
-                    <mxGeometry height="60" width="30" x="399" y="210" as="geometry"/>
+                    <mxGeometry height="60" width="30" x="399" y="210" as="geometry" />
                 </mxCell>
                 <mxCell id="a5s1IO0cIchD1mmAsrQn-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Uczestnik" vertex="1">
-                    <mxGeometry height="60" width="30" x="398" y="480" as="geometry"/>
+                    <mxGeometry height="60" width="30" x="398" y="480" as="geometry" />
                 </mxCell>
                 <mxCell id="a5s1IO0cIchD1mmAsrQn-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Przeglądanie listy obecności wydarzenia" vertex="1">
-                    <mxGeometry height="80" width="120" x="120" y="200" as="geometry"/>
+                    <mxGeometry height="80" width="120" x="120" y="200" as="geometry" />
                 </mxCell>
-                <mxCell id="a5s1IO0cIchD1mmAsrQn-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Odznaczanie i poprawianie obecności uczestnika" vertex="1">
-                    <mxGeometry height="80" width="120" x="200" y="310" as="geometry"/>
+                <mxCell id="a5s1IO0cIchD1mmAsrQn-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Oznaczanie i poprawianie obecności uczestnika" vertex="1">
+                    <mxGeometry height="80" width="120" x="200" y="310" as="geometry" />
                 </mxCell>
                 <mxCell id="a5s1IO0cIchD1mmAsrQn-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Udostępnianie kodu QR wydarzenia" vertex="1">
-                    <mxGeometry height="80" width="120" x="520" y="320" as="geometry"/>
+                    <mxGeometry height="80" width="120" x="520" y="320" as="geometry" />
                 </mxCell>
                 <mxCell id="a5s1IO0cIchD1mmAsrQn-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Przeglądanie podsumowania frekwencji" vertex="1">
-                    <mxGeometry height="80" width="120" x="570" y="200" as="geometry"/>
+                    <mxGeometry height="80" width="120" x="570" y="200" as="geometry" />
                 </mxCell>
-                <mxCell id="a5s1IO0cIchD1mmAsrQn-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Potwierdzanie własnej obecności za pomoca kodu QR" vertex="1">
-                    <mxGeometry height="80" width="120" x="100" y="480" as="geometry"/>
+                <mxCell id="a5s1IO0cIchD1mmAsrQn-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Potwierdzanie własnej obecności za pomocą kodu QR" vertex="1">
+                    <mxGeometry height="80" width="120" x="100" y="480" as="geometry" />
                 </mxCell>
                 <mxCell id="a5s1IO0cIchD1mmAsrQn-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Przeglądanie własnej historii obecności" vertex="1">
-                    <mxGeometry height="80" width="120" x="580" y="480" as="geometry"/>
+                    <mxGeometry height="80" width="120" x="580" y="480" as="geometry" />
                 </mxCell>
                 <mxCell id="a5s1IO0cIchD1mmAsrQn-13" edge="1" parent="1" source="a5s1IO0cIchD1mmAsrQn-5" style="edgeStyle=none;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=0;endArrow=none;endFill=0;" target="a5s1IO0cIchD1mmAsrQn-1">
-                    <mxGeometry relative="1" as="geometry"/>
+                    <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="a5s1IO0cIchD1mmAsrQn-14" edge="1" parent="1" source="a5s1IO0cIchD1mmAsrQn-6" style="edgeStyle=none;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="a5s1IO0cIchD1mmAsrQn-1">
-                    <mxGeometry relative="1" as="geometry"/>
+                    <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="a5s1IO0cIchD1mmAsrQn-15" edge="1" parent="1" source="a5s1IO0cIchD1mmAsrQn-7" style="edgeStyle=none;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="a5s1IO0cIchD1mmAsrQn-1">
-                    <mxGeometry relative="1" as="geometry"/>
+                    <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="a5s1IO0cIchD1mmAsrQn-16" edge="1" parent="1" source="a5s1IO0cIchD1mmAsrQn-8" style="edgeStyle=none;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="a5s1IO0cIchD1mmAsrQn-1">
-                    <mxGeometry relative="1" as="geometry"/>
+                    <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="a5s1IO0cIchD1mmAsrQn-18" edge="1" parent="1" source="a5s1IO0cIchD1mmAsrQn-9" style="edgeStyle=none;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="a5s1IO0cIchD1mmAsrQn-3">
-                    <mxGeometry relative="1" as="geometry"/>
+                    <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="a5s1IO0cIchD1mmAsrQn-19" edge="1" parent="1" source="a5s1IO0cIchD1mmAsrQn-10" style="edgeStyle=none;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="a5s1IO0cIchD1mmAsrQn-3">
-                    <mxGeometry relative="1" as="geometry"/>
+                    <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="a5s1IO0cIchD1mmAsrQn-20" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" value="Organizator zarządza obecnością jedynie na swoich wydarzeniach." vertex="1">
-                    <mxGeometry height="90" width="220" x="304" y="80" as="geometry"/>
+                    <mxGeometry height="90" width="220" x="304" y="80" as="geometry" />
                 </mxCell>
-                <mxCell id="a5s1IO0cIchD1mmAsrQn-21" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" value="Funkcje uczestnika i organizatora wymagają zalogowania na konta z odpowiednim dostepem do wydarzenia." vertex="1">
-                    <mxGeometry height="100" width="220" x="304" y="600" as="geometry"/>
+                <mxCell id="a5s1IO0cIchD1mmAsrQn-21" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" value="Funkcje wymagają zalogowania. Uczestnik potwierdza i przegląda wyłącznie własną obecność. Do potwierdzenia QR wymagany jest zapis na listę główną." vertex="1">
+                    <mxGeometry height="100" width="220" x="304" y="600" as="geometry" />
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="cFCkRcmMkDKTKlc39t46" name="Diagram klas 1">
-        <mxGraphModel dx="1609" dy="978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1337" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
-                <mxCell id="kC5BiIxHgfdTUOLNX8Hy-0"/>
-                <mxCell id="kC5BiIxHgfdTUOLNX8Hy-1" parent="kC5BiIxHgfdTUOLNX8Hy-0"/>
-                <mxCell id="YBip8d_84mwCYs5p-k9t-0" parent="kC5BiIxHgfdTUOLNX8Hy-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Attendence" vertex="1">
-                    <mxGeometry height="160" width="496" x="10" y="170" as="geometry">
-                        <mxRectangle height="30" width="100" x="254" y="180" as="alternateBounds"/>
+                <mxCell id="kC5BiIxHgfdTUOLNX8Hy-0" />
+                <mxCell id="kC5BiIxHgfdTUOLNX8Hy-1" parent="kC5BiIxHgfdTUOLNX8Hy-0" />
+                <mxCell id="YBip8d_84mwCYs5p-k9t-0" parent="kC5BiIxHgfdTUOLNX8Hy-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Attendance" vertex="1">
+                    <mxGeometry height="160" width="500" x="30" y="170" as="geometry">
+                        <mxRectangle height="30" width="100" x="254" y="180" as="alternateBounds" />
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="YBip8d_84mwCYs5p-k9t-1" parent="YBip8d_84mwCYs5p-k9t-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- id: UUID&lt;div&gt;- eventId: UUID&lt;/div&gt;&lt;div&gt;- participantId: UUID&lt;/div&gt;&lt;div&gt;- status: AttendenceStatus&lt;br&gt;- markedAt: LocalDateTime&lt;br&gt;- markedBy: UUID&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="94" width="496" y="26" as="geometry"/>
+                <mxCell id="YBip8d_84mwCYs5p-k9t-1" parent="YBip8d_84mwCYs5p-k9t-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- id: UUID&lt;br&gt;- eventId: UUID&lt;br&gt;- participantId: UUID&lt;br&gt;- status: AttendanceStatus&lt;br&gt;- markedAt: LocalDateTime&lt;br&gt;- markedBy: UUID" vertex="1">
+                    <mxGeometry height="94" width="500" y="26" as="geometry" />
                 </mxCell>
                 <mxCell id="YBip8d_84mwCYs5p-k9t-2" parent="YBip8d_84mwCYs5p-k9t-0" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
-                    <mxGeometry height="8" width="496" y="120" as="geometry"/>
+                    <mxGeometry height="8" width="500" y="120" as="geometry" />
                 </mxCell>
-                <mxCell id="YBip8d_84mwCYs5p-k9t-3" parent="YBip8d_84mwCYs5p-k9t-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ changeStatus (status: AttendenceStatus, markedBy: UUID, time: LocalDateTime): void" vertex="1">
-                    <mxGeometry height="32" width="496" y="128" as="geometry"/>
+                <mxCell id="YBip8d_84mwCYs5p-k9t-3" parent="YBip8d_84mwCYs5p-k9t-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ changeStatus (status: AttendanceStatus, markedBy: UUID, time: LocalDateTime): void" vertex="1">
+                    <mxGeometry height="32" width="500" y="128" as="geometry" />
                 </mxCell>
-                <mxCell id="YBip8d_84mwCYs5p-k9t-4" parent="kC5BiIxHgfdTUOLNX8Hy-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;Enumeration&amp;gt;&amp;gt;&lt;br&gt;AttendenceStatus" vertex="1">
-                    <mxGeometry height="104" width="140" x="600" y="270" as="geometry"/>
+                <mxCell id="YBip8d_84mwCYs5p-k9t-4" parent="kC5BiIxHgfdTUOLNX8Hy-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;br&gt;AttendanceStatus" vertex="1">
+                    <mxGeometry height="118" width="190" x="600" y="270" as="geometry" />
                 </mxCell>
                 <mxCell id="YBip8d_84mwCYs5p-k9t-5" parent="YBip8d_84mwCYs5p-k9t-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="NIEOZNACZONA" vertex="1">
-                    <mxGeometry height="26" width="140" y="26" as="geometry"/>
+                    <mxGeometry height="26" width="190" y="40" as="geometry" />
                 </mxCell>
                 <mxCell id="YBip8d_84mwCYs5p-k9t-6" parent="YBip8d_84mwCYs5p-k9t-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="OBECNY" vertex="1">
-                    <mxGeometry height="26" width="140" y="52" as="geometry"/>
+                    <mxGeometry height="26" width="190" y="66" as="geometry" />
                 </mxCell>
                 <mxCell id="YBip8d_84mwCYs5p-k9t-7" parent="YBip8d_84mwCYs5p-k9t-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="NIEOBECNY" vertex="1">
-                    <mxGeometry height="26" width="140" y="78" as="geometry"/>
+                    <mxGeometry height="26" width="190" y="92" as="geometry" />
                 </mxCell>
-                <mxCell id="YBip8d_84mwCYs5p-k9t-9" edge="1" parent="kC5BiIxHgfdTUOLNX8Hy-1" source="YBip8d_84mwCYs5p-k9t-4" style="edgeStyle=none;html=1;entryX=1;entryY=0.468;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;startArrow=open;startFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="YBip8d_84mwCYs5p-k9t-1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="YBip8d_84mwCYs5p-k9t-9" edge="1" parent="kC5BiIxHgfdTUOLNX8Hy-1" source="YBip8d_84mwCYs5p-k9t-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;exitX=1;exitY=0.5;entryX=0;entryY=0.25;" target="YBip8d_84mwCYs5p-k9t-4">
+                    <mxGeometry relative="1" as="geometry" />
                 </mxCell>
-                <mxCell id="YBip8d_84mwCYs5p-k9t-12" parent="kC5BiIxHgfdTUOLNX8Hy-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="AttendenceQrCode" vertex="1">
-                    <mxGeometry height="144" width="236" x="20" y="710" as="geometry"/>
+                <mxCell id="0_l-TU5c4HVJ8xUZEa1N-0" edge="1" parent="kC5BiIxHgfdTUOLNX8Hy-1" source="YBip8d_84mwCYs5p-k9t-12" style="edgeStyle=none;html=1;endArrow=block;endFill=1;" target="_Bx4j4fpkBLmnvrcbzZj-0">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="YBip8d_84mwCYs5p-k9t-12" parent="kC5BiIxHgfdTUOLNX8Hy-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="AttendanceQrCode" vertex="1">
+                    <mxGeometry height="144" width="310" x="30" y="780" as="geometry" />
                 </mxCell>
                 <mxCell id="YBip8d_84mwCYs5p-k9t-13" parent="YBip8d_84mwCYs5p-k9t-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- id: UUID&lt;br&gt;- eventId: UUID&lt;br&gt;- token: String&lt;br&gt;- createdAt: LocalDateTime&lt;br&gt;- expiresAt: LocalDateTime&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="84" width="236" y="26" as="geometry"/>
+                    <mxGeometry height="84" width="310" y="26" as="geometry" />
                 </mxCell>
                 <mxCell id="YBip8d_84mwCYs5p-k9t-14" parent="YBip8d_84mwCYs5p-k9t-12" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
-                    <mxGeometry height="8" width="236" y="110" as="geometry"/>
+                    <mxGeometry height="8" width="310" y="110" as="geometry" />
                 </mxCell>
-                <mxCell id="YBip8d_84mwCYs5p-k9t-15" parent="YBip8d_84mwCYs5p-k9t-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ isValidAt (time LocalDateTime): boolean" vertex="1">
-                    <mxGeometry height="26" width="236" y="118" as="geometry"/>
+                <mxCell id="YBip8d_84mwCYs5p-k9t-15" parent="YBip8d_84mwCYs5p-k9t-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ isValidAt(time: LocalDateTime): boolean" vertex="1">
+                    <mxGeometry height="26" width="310" y="118" as="geometry" />
                 </mxCell>
                 <mxCell id="YBip8d_84mwCYs5p-k9t-18" parent="kC5BiIxHgfdTUOLNX8Hy-1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" value="Dla pary eventId - participantId może istnieć tylko jeden aktualny wpis obecności.&lt;br&gt;&lt;br&gt;Brak wpisu obecności oznacza NIEOZNACZONA. Pierwsze oznaczenie tworzy wpis." vertex="1">
-                    <mxGeometry height="130" width="284" x="490" y="17" as="geometry"/>
+                    <mxGeometry height="130" width="284" x="490" y="17" as="geometry" />
                 </mxCell>
-                <mxCell id="YBip8d_84mwCYs5p-k9t-21" parent="kC5BiIxHgfdTUOLNX8Hy-1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" value="Jeden kod QR może posłuzyć wielu uczestnikom jednego wydarzenia" vertex="1">
-                    <mxGeometry height="110" width="150" x="274" y="710" as="geometry"/>
+                <mxCell id="YBip8d_84mwCYs5p-k9t-21" parent="kC5BiIxHgfdTUOLNX8Hy-1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" value="Jeden ważny kod QR może posłużyć wielu uczestnikom jednego wydarzenia.&lt;br&gt;&lt;br&gt;isValidAt(time) sprawdza: createdAt ≤ time &amp;lt; expiresAt. Wygaśnięcie kodu nie usuwa obecności." vertex="1">
+                    <mxGeometry height="150" width="300" x="370" y="780" as="geometry" />
                 </mxCell>
-                <mxCell id="nlB9ZwGLBBJrOWDDzRFW-0" parent="kC5BiIxHgfdTUOLNX8Hy-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=35;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;DTO&amp;gt;&amp;gt;&lt;br&gt;AttendenceListEntry" vertex="1">
-                    <mxGeometry height="98" width="160" x="370" y="410" as="geometry"/>
+                <mxCell id="nlB9ZwGLBBJrOWDDzRFW-0" parent="kC5BiIxHgfdTUOLNX8Hy-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=35;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;DTO&amp;gt;&amp;gt;&lt;br&gt;AttendanceListEntry" vertex="1">
+                    <mxGeometry height="98" width="250" x="300" y="487" as="geometry" />
                 </mxCell>
-                <mxCell id="nlB9ZwGLBBJrOWDDzRFW-1" parent="nlB9ZwGLBBJrOWDDzRFW-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- participantId: UUID&lt;br&gt;- displayName: String&lt;br&gt;- status: AttendenceStatus" vertex="1">
-                    <mxGeometry height="55" width="160" y="35" as="geometry"/>
+                <mxCell id="nlB9ZwGLBBJrOWDDzRFW-1" parent="nlB9ZwGLBBJrOWDDzRFW-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- participantId: UUID&lt;br&gt;- displayName: String&lt;br&gt;- status: AttendanceStatus" vertex="1">
+                    <mxGeometry height="55" width="250" y="35" as="geometry" />
                 </mxCell>
                 <mxCell id="nlB9ZwGLBBJrOWDDzRFW-2" parent="nlB9ZwGLBBJrOWDDzRFW-0" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
-                    <mxGeometry height="8" width="160" y="90" as="geometry"/>
+                    <mxGeometry height="8" width="250" y="90" as="geometry" />
                 </mxCell>
-                <mxCell id="nlB9ZwGLBBJrOWDDzRFW-5" edge="1" parent="kC5BiIxHgfdTUOLNX8Hy-1" source="nlB9ZwGLBBJrOWDDzRFW-0" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" target="YBip8d_84mwCYs5p-k9t-7">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="nlB9ZwGLBBJrOWDDzRFW-5" edge="1" parent="kC5BiIxHgfdTUOLNX8Hy-1" source="nlB9ZwGLBBJrOWDDzRFW-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;exitX=1;exitY=0.5;entryX=0;entryY=0.6;" target="YBip8d_84mwCYs5p-k9t-4">
+                    <mxGeometry relative="1" as="geometry" />
                 </mxCell>
-                <mxCell id="nlB9ZwGLBBJrOWDDzRFW-6" parent="kC5BiIxHgfdTUOLNX8Hy-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;DTIO&amp;gt;&amp;gt;&lt;br&gt;AttendeceList" vertex="1">
-                    <mxGeometry height="138" width="170" x="10" y="360" as="geometry"/>
+                <mxCell id="nlB9ZwGLBBJrOWDDzRFW-6" parent="kC5BiIxHgfdTUOLNX8Hy-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;DTO&amp;gt;&amp;gt;&lt;br&gt;AttendanceList" vertex="1">
+                    <mxGeometry height="138" width="250" x="30" y="380" as="geometry" />
                 </mxCell>
-                <mxCell id="nlB9ZwGLBBJrOWDDzRFW-7" parent="nlB9ZwGLBBJrOWDDzRFW-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- eventId: UUID&lt;br&gt;- participantsCount: int&lt;br&gt;- presentCount: int&lt;br&gt;- absentCount: int&lt;br&gt;- unmarkedCount: int&lt;br&gt;- attendencePercentage: float" vertex="1">
-                    <mxGeometry height="90" width="170" y="40" as="geometry"/>
+                <mxCell id="nlB9ZwGLBBJrOWDDzRFW-7" parent="nlB9ZwGLBBJrOWDDzRFW-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- eventId: UUID&lt;br&gt;- participantsCount: int&lt;br&gt;- presentCount: int&lt;br&gt;- absentCount: int&lt;br&gt;- unmarkedCount: int&lt;br&gt;- attendancePercentage: Float" vertex="1">
+                    <mxGeometry height="90" width="250" y="40" as="geometry" />
                 </mxCell>
                 <mxCell id="nlB9ZwGLBBJrOWDDzRFW-8" parent="nlB9ZwGLBBJrOWDDzRFW-6" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
-                    <mxGeometry height="8" width="170" y="130" as="geometry"/>
+                    <mxGeometry height="8" width="250" y="130" as="geometry" />
                 </mxCell>
-                <mxCell id="nlB9ZwGLBBJrOWDDzRFW-13" parent="kC5BiIxHgfdTUOLNX8Hy-1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" value="Frekwencja = presentCount / registeredCount x 100%" vertex="1">
-                    <mxGeometry height="130" width="160" x="190" y="360" as="geometry"/>
+                <mxCell id="nlB9ZwGLBBJrOWDDzRFW-13" parent="kC5BiIxHgfdTUOLNX8Hy-1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" value="Frekwencja = presentCount / participantsCount * 100%.&lt;br&gt;&lt;br&gt;participantsCount obejmuje tylko listę główną." vertex="1">
+                    <mxGeometry height="69" width="250" x="300" y="380" as="geometry" />
                 </mxCell>
-                <mxCell id="nlB9ZwGLBBJrOWDDzRFW-18" edge="1" parent="kC5BiIxHgfdTUOLNX8Hy-1" source="nlB9ZwGLBBJrOWDDzRFW-14" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" target="YBip8d_84mwCYs5p-k9t-4">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="nlB9ZwGLBBJrOWDDzRFW-18" edge="1" parent="kC5BiIxHgfdTUOLNX8Hy-1" source="nlB9ZwGLBBJrOWDDzRFW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="YBip8d_84mwCYs5p-k9t-4">
+                    <mxGeometry relative="1" as="geometry" />
                 </mxCell>
                 <mxCell id="nlB9ZwGLBBJrOWDDzRFW-14" parent="kC5BiIxHgfdTUOLNX8Hy-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;DTO&amp;gt;&amp;gt;&lt;br&gt;ParticipationHistoryEntry" vertex="1">
-                    <mxGeometry height="118" width="160" x="590" y="480" as="geometry"/>
+                    <mxGeometry height="118" width="220" x="585" y="560" as="geometry" />
                 </mxCell>
-                <mxCell id="nlB9ZwGLBBJrOWDDzRFW-15" parent="nlB9ZwGLBBJrOWDDzRFW-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- eventId: UUID&lt;br&gt;- eventTitle: String&lt;br&gt;- eventDate: LocalDateTime&lt;br&gt;- status: Attendence Status" vertex="1">
-                    <mxGeometry height="70" width="160" y="40" as="geometry"/>
+                <mxCell id="nlB9ZwGLBBJrOWDDzRFW-15" parent="nlB9ZwGLBBJrOWDDzRFW-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- eventId: UUID&lt;br&gt;- eventTitle: String&lt;br&gt;- eventDate: LocalDateTime&lt;br&gt;- status: AttendanceStatus" vertex="1">
+                    <mxGeometry height="70" width="220" y="40" as="geometry" />
                 </mxCell>
                 <mxCell id="nlB9ZwGLBBJrOWDDzRFW-16" parent="nlB9ZwGLBBJrOWDDzRFW-14" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
-                    <mxGeometry height="8" width="160" y="110" as="geometry"/>
+                    <mxGeometry height="8" width="220" y="110" as="geometry" />
                 </mxCell>
                 <mxCell id="_Bx4j4fpkBLmnvrcbzZj-0" parent="kC5BiIxHgfdTUOLNX8Hy-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&amp;lt;&amp;lt;DTO&amp;gt;&amp;gt;&lt;br&gt;QrCodeView" vertex="1">
-                    <mxGeometry height="98" width="230" x="20" y="880" as="geometry"/>
+                    <mxGeometry height="98" width="310" x="30" y="980" as="geometry" />
                 </mxCell>
                 <mxCell id="_Bx4j4fpkBLmnvrcbzZj-1" parent="_Bx4j4fpkBLmnvrcbzZj-0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- eventId: UUID&lt;br&gt;- qrContent: String&lt;br&gt;- expiresAt: LocalDateTime&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-                    <mxGeometry height="50" width="230" y="40" as="geometry"/>
+                    <mxGeometry height="50" width="310" y="40" as="geometry" />
                 </mxCell>
                 <mxCell id="_Bx4j4fpkBLmnvrcbzZj-2" parent="_Bx4j4fpkBLmnvrcbzZj-0" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
-                    <mxGeometry height="8" width="230" y="90" as="geometry"/>
+                    <mxGeometry height="8" width="310" y="90" as="geometry" />
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram name="Diagram klas 2" id="VFI-AL3qBG7njSp_m9hX">
-        <mxGraphModel dx="2313" dy="1406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1337" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1740" pageHeight="1600" math="0" shadow="0">
             <root>
-                <mxCell id="8mryqRtztx-RbzzlAZHX-0"/>
-                <mxCell id="8mryqRtztx-RbzzlAZHX-1" parent="8mryqRtztx-RbzzlAZHX-0"/>
+                <mxCell id="0" />
+                <mxCell id="1" parent="0" />
+                <mxCell id="controller" parent="1" style="swimlane;html=1;whiteSpace=wrap;horizontal=1;startSize=34;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;collapsible=0;rounded=0;strokeWidth=1.4;fillColor=#e8f0fa;swimlaneFillColor=#ffffff;" value="AttendanceController" vertex="1">
+                    <mxGeometry height="190" width="1080" x="600" y="40" as="geometry" />
+                </mxCell>
+                <mxCell id="controller-ops" parent="controller" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=9;spacingRight=8;whiteSpace=wrap;fontSize=15;overflow=hidden;" value="+ getAttendanceList(eventId: UUID): List&amp;lt;AttendanceListEntry&amp;gt;&lt;br&gt;+ markAttendance(eventId: UUID, participantId: UUID, status: AttendanceStatus): void&lt;br&gt;+ generateQrCode(eventId: UUID, expiresAt: LocalDateTime): QrCodeView&lt;br&gt;+ confirmAttendance(token: String): void&lt;br&gt;+ getSummary(eventId: UUID): AttendanceList&lt;br&gt;+ getOwnHistory(): List&amp;lt;ParticipationHistoryEntry&amp;gt;" vertex="1">
+                    <mxGeometry height="156" width="1080" y="34" as="geometry" />
+                </mxCell>
+                <mxCell id="contract" parent="1" style="swimlane;html=1;whiteSpace=wrap;horizontal=1;startSize=48;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;collapsible=0;rounded=0;strokeWidth=1.4;fillColor=#e8f0fa;swimlaneFillColor=#ffffff;" value="«interface»&lt;br&gt;IAttendanceService" vertex="1">
+                    <mxGeometry height="205" width="1080" x="600" y="300" as="geometry" />
+                </mxCell>
+                <mxCell id="contract-ops" parent="contract" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=9;spacingRight=8;whiteSpace=wrap;fontSize=15;overflow=hidden;" value="+ getAttendanceList(eventId: UUID): List&amp;lt;AttendanceListEntry&amp;gt;&lt;br&gt;+ markAttendance(eventId: UUID, participantId: UUID, status: AttendanceStatus): void&lt;br&gt;+ generateQrCode(eventId: UUID, expiresAt: LocalDateTime): QrCodeView&lt;br&gt;+ confirmAttendance(token: String): void&lt;br&gt;+ getSummary(eventId: UUID): AttendanceList&lt;br&gt;+ getOwnHistory(): List&amp;lt;ParticipationHistoryEntry&amp;gt;" vertex="1">
+                    <mxGeometry height="157" width="1080" y="48" as="geometry" />
+                </mxCell>
+                <mxCell id="service" parent="1" style="swimlane;html=1;whiteSpace=wrap;horizontal=1;startSize=34;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;collapsible=0;rounded=0;strokeWidth=1.4;fillColor=#e8f0fa;swimlaneFillColor=#ffffff;" value="AttendanceService" vertex="1">
+                    <mxGeometry height="190" width="1080" x="600" y="575" as="geometry" />
+                </mxCell>
+                <mxCell id="service-ops" parent="service" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=9;spacingRight=8;whiteSpace=wrap;fontSize=15;overflow=hidden;" value="+ getAttendanceList(eventId: UUID): List&amp;lt;AttendanceListEntry&amp;gt;&lt;br&gt;+ markAttendance(eventId: UUID, participantId: UUID, status: AttendanceStatus): void&lt;br&gt;+ generateQrCode(eventId: UUID, expiresAt: LocalDateTime): QrCodeView&lt;br&gt;+ confirmAttendance(token: String): void&lt;br&gt;+ getSummary(eventId: UUID): AttendanceList&lt;br&gt;+ getOwnHistory(): List&amp;lt;ParticipationHistoryEntry&amp;gt;" vertex="1">
+                    <mxGeometry height="156" width="1080" y="34" as="geometry" />
+                </mxCell>
+                <mxCell id="users" parent="1" style="swimlane;html=1;whiteSpace=wrap;horizontal=1;startSize=48;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;collapsible=0;rounded=0;strokeWidth=1.4;fillColor=#f0f0f0;swimlaneFillColor=#ffffff;" value="«interface»&lt;br&gt;IUsersService" vertex="1">
+                    <mxGeometry height="110" width="300" x="30" y="300" as="geometry" />
+                </mxCell>
+                <mxCell id="users-ops" parent="users" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=9;spacingRight=8;whiteSpace=wrap;fontSize=15;overflow=hidden;" value="+ getCurrentUserId(): UUID&lt;br&gt;+ getDisplayName(userId: UUID): String" vertex="1">
+                    <mxGeometry height="62" width="450" y="48" as="geometry" />
+                </mxCell>
+                <mxCell id="events" parent="1" style="swimlane;html=1;whiteSpace=wrap;horizontal=1;startSize=48;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;collapsible=0;rounded=0;strokeWidth=1.4;fillColor=#f0f0f0;swimlaneFillColor=#ffffff;" value="«interface»&lt;br&gt;IEventsService" vertex="1">
+                    <mxGeometry height="165" width="450" x="60" y="500" as="geometry" />
+                </mxCell>
+                <mxCell id="events-ops" parent="events" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=9;spacingRight=8;whiteSpace=wrap;fontSize=15;overflow=hidden;" value="+ isOrganizer(eventId: UUID, userId: UUID): boolean&lt;br&gt;+ getEventTitle(eventId: UUID): String&lt;br&gt;+ getEventDate(eventId: UUID): LocalDateTime" vertex="1">
+                    <mxGeometry height="117" width="450" y="48" as="geometry" />
+                </mxCell>
+                <mxCell id="registrations" parent="1" style="swimlane;html=1;whiteSpace=wrap;horizontal=1;startSize=48;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;collapsible=0;rounded=0;strokeWidth=1.4;fillColor=#f0f0f0;swimlaneFillColor=#ffffff;" value="«interface»&lt;br&gt;IRegistrationsService" vertex="1">
+                    <mxGeometry height="190" width="500" x="10" y="690" as="geometry" />
+                </mxCell>
+                <mxCell id="registrations-ops" parent="registrations" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=9;spacingRight=8;whiteSpace=wrap;fontSize=15;overflow=hidden;" value="+ getConfirmedParticipantIds(eventId: UUID): Set&amp;lt;UUID&amp;gt;&lt;br&gt;+ isConfirmedParticipant(eventId: UUID, participantId: UUID): boolean&lt;br&gt;+ getParticipantEventIds(participantId: UUID): Set&amp;lt;UUID&amp;gt;" vertex="1">
+                    <mxGeometry height="142" width="500" y="48" as="geometry" />
+                </mxCell>
+                <mxCell id="qrService" parent="1" style="swimlane;html=1;whiteSpace=wrap;horizontal=1;startSize=34;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;collapsible=0;rounded=0;strokeWidth=1.4;fillColor=#e8f0fa;swimlaneFillColor=#ffffff;" value="QrCodeService" vertex="1">
+                    <mxGeometry height="92.5" width="540" x="520" y="880" as="geometry" />
+                </mxCell>
+                <mxCell id="qrService-ops" parent="qrService" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=9;spacingRight=8;whiteSpace=wrap;fontSize=15;overflow=hidden;" value="+ createCode(eventId: UUID, expiresAt: LocalDateTime): QrCodeView&lt;br&gt;+ validateAndGetEventId(token: String): UUID" vertex="1">
+                    <mxGeometry height="116" width="540" y="34" as="geometry" />
+                </mxCell>
+                <mxCell id="qr-repo" edge="1" parent="qrService" source="qrService" style="edgeStyle=none;rounded=0;html=1;dashed=0;strokeWidth=1.5;endArrow=open;endFill=0;exitX=0.5;exitY=1.0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="qrService-ops">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="attendanceRepo" parent="1" style="swimlane;html=1;whiteSpace=wrap;horizontal=1;startSize=48;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;collapsible=0;rounded=0;strokeWidth=1.4;fillColor=#e8f0fa;swimlaneFillColor=#ffffff;" value="«interface»&lt;br&gt;AttendanceRepository" vertex="1">
+                    <mxGeometry height="140" width="630" x="1090" y="856.25" as="geometry" />
+                </mxCell>
+                <mxCell id="attendanceRepo-ops" parent="attendanceRepo" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=9;spacingRight=8;whiteSpace=wrap;fontSize=15;overflow=hidden;" value="+ findByEventAndParticipant(eventId: UUID, participantId: UUID): Attendance&lt;br&gt;+ findByEventId(eventId: UUID): List&amp;lt;Attendance&amp;gt;&lt;br&gt;+ findByParticipantId(participantId: UUID): List&amp;lt;Attendance&amp;gt;&lt;br&gt;+ save(attendance: Attendance): void" vertex="1">
+                    <mxGeometry height="102" width="630" y="48" as="geometry" />
+                </mxCell>
+                <mxCell id="qrRepo" parent="1" style="swimlane;html=1;whiteSpace=wrap;horizontal=1;startSize=48;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;collapsible=0;rounded=0;strokeWidth=1.4;fillColor=#e8f0fa;swimlaneFillColor=#ffffff;" value="«interface»&lt;br&gt;QrCodeRepository" vertex="1">
+                    <mxGeometry height="110" width="500" x="600" y="1027.5" as="geometry" />
+                </mxCell>
+                <mxCell id="qrRepo-ops" parent="qrRepo" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=9;spacingRight=8;whiteSpace=wrap;fontSize=15;overflow=hidden;" value="+ findByToken(token: String): AttendanceQrCode&lt;br&gt;+ save(code: AttendanceQrCode): void" vertex="1">
+                    <mxGeometry height="62" width="500" y="48" as="geometry" />
+                </mxCell>
+                <mxCell id="jpaAttendance" parent="1" style="swimlane;html=1;whiteSpace=wrap;horizontal=1;startSize=34;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;collapsible=0;rounded=0;strokeWidth=1.4;fillColor=#e8f0fa;swimlaneFillColor=#ffffff;" value="JpaAttendanceRepository" vertex="1">
+                    <mxGeometry height="80" width="500" x="1185" y="1057.5" as="geometry" />
+                </mxCell>
+                <mxCell id="jpaAttendance-ops" parent="jpaAttendance" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=9;spacingRight=8;whiteSpace=wrap;fontSize=15;overflow=hidden;" value="" vertex="1">
+                    <mxGeometry height="46" width="500" y="34" as="geometry" />
+                </mxCell>
+                <mxCell id="jpaQr" parent="1" style="swimlane;html=1;whiteSpace=wrap;horizontal=1;startSize=34;fontSize=16;fontStyle=1;align=center;verticalAlign=middle;collapsible=0;rounded=0;strokeWidth=1.4;fillColor=#e8f0fa;swimlaneFillColor=#ffffff;" value="JpaQrCodeRepository" vertex="1">
+                    <mxGeometry height="80" width="500" x="600" y="1180" as="geometry" />
+                </mxCell>
+                <mxCell id="jpaQr-ops" parent="jpaQr" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=10;spacingTop=9;spacingRight=8;whiteSpace=wrap;fontSize=15;overflow=hidden;" value="" vertex="1">
+                    <mxGeometry height="46" width="500" y="34" as="geometry" />
+                </mxCell>
+                <mxCell id="controller-contract" edge="1" parent="1" source="controller" style="edgeStyle=none;rounded=0;html=1;dashed=0;strokeWidth=1.5;endArrow=open;endFill=0;exitX=0.5;exitY=1.0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryPerimeter=0;" target="contract">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="service-contract" edge="1" parent="1" source="service" style="edgeStyle=none;rounded=0;html=1;dashed=1;dashPattern=7 5;strokeWidth=1.5;endArrow=block;endFill=0;exitX=0.5;exitY=0.0;exitPerimeter=0;entryX=0.5;entryY=1.0;entryPerimeter=0;" target="contract">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="service-users" edge="1" parent="1" source="service" style="edgeStyle=none;rounded=0;html=1;dashed=0;strokeWidth=1.5;endArrow=open;endFill=0;exitX=0.0;exitY=0.15789473684210525;exitPerimeter=0;entryX=1.0;entryY=0.4962962962962963;entryPerimeter=0;" target="users">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="560" y="605" />
+                            <mxPoint x="560" y="367" />
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="service-events" edge="1" parent="1" source="service" style="edgeStyle=none;rounded=0;html=1;dashed=0;strokeWidth=1.5;endArrow=open;endFill=0;exitX=0.0;exitY=0.42105263157894735;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="events-ops">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="service-registrations" edge="1" parent="1" source="service" style="edgeStyle=none;rounded=0;html=1;dashed=0;strokeWidth=1.5;endArrow=open;endFill=0;exitX=0.0;exitY=0.7631578947368421;exitPerimeter=0;entryX=1.0;entryY=0.5;entryPerimeter=0;" target="registrations">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points" />
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="service-qr" edge="1" parent="1" source="service" style="edgeStyle=none;rounded=0;html=1;dashed=0;strokeWidth=1.5;endArrow=open;endFill=0;exitX=0.23148148148148148;exitY=1.0;exitPerimeter=0;entryX=0.614;entryY=0.044;entryPerimeter=0;entryDx=0;entryDy=0;" target="qrService">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="service-repo" edge="1" parent="1" source="service-ops" style="edgeStyle=none;rounded=0;html=1;dashed=0;strokeWidth=1.5;endArrow=open;endFill=0;exitX=0.75;exitY=1;entryX=0.5;entryY=0.0;entryPerimeter=0;exitDx=0;exitDy=0;" target="attendanceRepo">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="jpa-attendance" edge="1" parent="1" source="jpaAttendance" style="edgeStyle=none;rounded=0;html=1;dashed=1;dashPattern=7 5;strokeWidth=1.5;endArrow=block;endFill=0;exitX=0.443;exitY=0.015;exitPerimeter=0;entryX=0.5;entryY=1.0;entryPerimeter=0;exitDx=0;exitDy=0;" target="attendanceRepo">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="jpa-qr" edge="1" parent="1" source="jpaQr" style="edgeStyle=none;rounded=0;html=1;dashed=1;dashPattern=7 5;strokeWidth=1.5;endArrow=block;endFill=0;exitX=0.5;exitY=0.0;exitPerimeter=0;entryX=0.5;entryY=1.0;entryPerimeter=0;" target="qrRepo">
+                    <mxGeometry relative="1" as="geometry" />
+                </mxCell>
+                <mxCell id="oIAXyMFt8i7EG8U_pN0b-3" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 16px; text-align: left;&quot;&gt;AttendanceService weryfikuje organizatora i listę główną. QrCodeService sprawdza token i czas ważności przez AttendanceQrCode.isValidAt(time). Ponowne potwierdzenie nie tworzy drugiego wpisu obecności.&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="140" width="550" x="1170" y="1270" as="geometry" />
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="7cNxkPcYzu4NgdcXloc4" name="Sekwencje - slajd 7">
-        <mxGraphModel dx="785" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1110" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
-                <mxCell id="S3DGinTbhmwp4U_RwBfA-0"/>
-                <mxCell id="S3DGinTbhmwp4U_RwBfA-1" parent="S3DGinTbhmwp4U_RwBfA-0"/>
+                <mxCell id="S3DGinTbhmwp4U_RwBfA-0" />
+                <mxCell id="S3DGinTbhmwp4U_RwBfA-1" parent="S3DGinTbhmwp4U_RwBfA-0" />
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="qCnQGnbi3i1PBmu_sdgQ" name="Dodatkowe - slajd 8">
         <mxGraphModel dx="1110" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
-                <mxCell id="GTqs5JXqP3TQUeBdqlcL-0"/>
-                <mxCell id="GTqs5JXqP3TQUeBdqlcL-1" parent="GTqs5JXqP3TQUeBdqlcL-0"/>
+                <mxCell id="GTqs5JXqP3TQUeBdqlcL-0" />
+                <mxCell id="GTqs5JXqP3TQUeBdqlcL-1" parent="GTqs5JXqP3TQUeBdqlcL-0" />
             </root>
         </mxGraphModel>
     </diagram>
